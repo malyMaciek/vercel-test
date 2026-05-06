@@ -1,13 +1,12 @@
 import Image from "next/image";
 import Link from "next/link";
 
-export default function Home() {
+export default function strona1() {
   return (
     <div className="flex flex-col flex-1 items-center justify-center bg-zinc-50 font-sans dark:bg-black">
       <main className="flex flex-1 w-full max-w-3xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start">
-        <h1>Jezu ale bym jakoms torte wyjebal</h1>
-        <Link href={"/strona1"} className="underline">Strona druga</Link>
-        <Image src={"/6081a671-ee4a-493c-bf86-d534868c70a7.jpg"} alt="chuj" width={100} height={100} />
+        <h1>Nie mow halo bo wiesz co za halo</h1>
+        <Link href={"/"} className="underline">Powrot</Link>
       </main>
     </div>
   );
